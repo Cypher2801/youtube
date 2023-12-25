@@ -1,0 +1,26 @@
+.channel-pic{
+                
+    width: 100%;
+    vertical-align: top;
+    margin-top: 8px;
+}
+.thumbnail1{
+    width: 100%;
+}
+
+.profile-picture{
+    width: 80%;
+    border-radius: 50px;
+}
+.video-title{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.video-owner,
+.video-stats {
+    font-size: smaller;
+}
+.video-owner{
+    margin-bottom: 4px;
+}
