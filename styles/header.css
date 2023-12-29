@@ -1,24 +1,87 @@
 .header{
+    z-index: 100;
     height: 55px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 .left-section{
-    width: 150px;
-    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger,.youtube-logo{
+    height: 20px;
+}
+.hamburger{
+    margin-left: 24px;
+    margin-right: 24px;
 }
 .right-section{
-    width: 200px;
-    background-color: lightblue;
-    max-width: 500px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    position: relative;
 }
 .middle-section{
+    display: flex;
+    
     flex:1;
     margin-left: 70px;
     margin-right: 50px;
-    background-color: lightpink;
-    background-color: lightblue;
+    
+    align-items: center;
+}
+.search{
+    margin-left: -1px;
+    margin-right: 8px;
+    height: 38px;
+    width: 66px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgba(128, 128, 128, 0.231);
+    cursor: pointer;
+    
+}
+.voice-search{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+}
+.text-box{
+    height: 34px;
+    width: 0;
+    flex: 1;
+    max-width: 500px;
+    padding-left: 10px;
+    border-width: 1px;
+    font-size: 16px;
+    border-color:rgba(128, 128, 128, 0.231);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.text-box::placeholder{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search-image{
+    height: 24px;
+}
+.voice-image{
+    height: 24px;
+    margin-top: 4px;
+}
+.upload,.youtube-apps,.notification,.channel{
+    height:24px;
 }

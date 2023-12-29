@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
@@ -25,17 +26,66 @@
     <body>
         <div class="header">
             <div class="left-section">
-                left
+                <img class="hamburger" src="header/hamburger-menu.svg" >
+                <img class="youtube-logo"   src="header/youtube-logo.svg" >
             </div>
             <div class="middle-section">
                 <input class="text-box" type="text" placeholder="Search">
+                <button  class="search">
+                    <img  class= "search-image"src="header/search.svg">
+                </button>
+                <button class="voice-search">
+                    <img class="voice-image" src="header/voice-search-icon.svg">
+                </button>
             </div>
             <div class="right-section">
-                right
+                <div style="background-color: red;
+                    border-radius: 50%;
+                    position: absolute;
+                    right: 75px;
+                    top: 12px;
+                    height: 15px;
+                    color: white;
+                    width: 15px;
+                    font-size: 10px;
+                    display: flex;
+                    border: 2px solid white;
+                    justify-content: center;
+                    align-items: center;">3</div>
+                <img  class= "upload"src="header/upload.svg">
+                <img  class= "youtube-apps"src="header/youtube-apps.svg">
+                <img  class= "notification" src="header/notifications.svg">
+                <img  class= "channel"src="header/my-channel.jpeg">
+                
             </div>
         </div>
         
-        
+        <div class="sidebar">
+            <div class="home">
+                <img src="sidebar/home.svg">
+                <p>Home</p>
+            </div>
+            <div class="explore">
+                <img src="sidebar/explore.svg">
+                <p>Explore</p>
+            </div>
+            <div class="subscriptions">
+                <img src="sidebar/subscriptions.svg">
+                <p>Subscriptions</p>
+            </div>
+            <div class="originals">
+                <img src="sidebar/originals.svg">
+                <p>Originals</p>
+            </div>
+            <div class="youtube-music">
+                <img src="sidebar/youtube-music.svg">
+                <p>Youtube music</p>
+            </div>
+            <div class="library">
+                <img src="sidebar/library.svg">
+                <p>Library</p>
+            </div>
+        </div>
 
         
             <div style="
@@ -45,6 +95,9 @@
             row-gap: 40px;">
              <div class="video">
                 <div class="thumbnail">
+                    <div class="video-duration">
+                        14:20
+                    </div>
                     <img class="thumbnail1"src="thumbnails/thumbnail-1.webp">
                 </div>
                 <div class="video-info" style="display: grid;
@@ -107,7 +160,7 @@
                     <div class="video-det">
                         <p class="video-title">
                             
-Crazy Tik Toks Taken Moments Before DISASTER
+                            Crazy Tik Toks Taken Moments Before DISASTER
                         </p>
                         <p class="video-owner">
                             SSSniperWolf
@@ -200,7 +253,7 @@ Crazy Tik Toks Taken Moments Before DISASTER
             </div>
                 
             
-             
+            
                 
         
         
